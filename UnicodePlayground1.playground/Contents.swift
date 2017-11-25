@@ -11,3 +11,8 @@ let codeString = responseUnicode.replacingOccurrences(of: "&#", with: "").replac
 let code = Int(codeString)
 
 
+
+//　受け皿になる空文字を用意
+var result = ""
+// string.unicodeScalarsが文字列を表現しているUnicode.Scalarの集合
+
