@@ -14,6 +14,7 @@ let codeScalar = Unicode.Scalar(code!)
 var result  = ""
 result.unicodeScalars.append(codeScalar!)
 
+// ☎
 print(result)
 
 // MacOS(iOS)用の絵文字バリエーションシーケンスの値

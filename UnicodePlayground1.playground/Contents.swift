@@ -10,9 +10,10 @@ let codeString = responseUnicode.replacingOccurrences(of: "&#", with: "").replac
 // 9742
 let code = Int(codeString)
 
+// ユニコードの値
+let scalar = UnicodeScalar(code!)
 
-
-//　受け皿になる空文字を用意
 var result = ""
 // string.unicodeScalarsが文字列を表現しているUnicode.Scalarの集合
-
+result.unicodeScalars.append(scalar!)
+print(result)
