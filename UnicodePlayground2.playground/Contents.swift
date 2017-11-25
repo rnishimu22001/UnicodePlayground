@@ -16,4 +16,5 @@ result.unicodeScalars.append(codeScalar!)
 
 print(result)
 
+// MacOS(iOS)用の絵文字バリエーションシーケンスの値
 let emojiVariationSequence = 65039
