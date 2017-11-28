@@ -1,7 +1,7 @@
 import Foundation
 
 // HTML Decimal Code
-let responseUnicode = "&#9742;"
+let responseUnicode = "&#9992;"
 
 // デリミタの部分はいらないので適当に置き換える
 let codeString = responseUnicode.replacingOccurrences(of: "&#", with: "").replacingOccurrences(of: ";", with: "")
@@ -14,8 +14,8 @@ let codeScalar = Unicode.Scalar(code!)
 var result  = ""
 result.unicodeScalars.append(codeScalar!)
 
-// ☎
+// ✈
 print(result)
 
-// MacOS(iOS)用の絵文字バリエーションシーケンスの値
+// 絵文字プレゼンテーションシーケンスの値
 let emojiVariationSequence = 65039
